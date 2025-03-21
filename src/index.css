@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@font-face {font-family: 'fredokaOne'; src: url(./assets//fonts/FredokaOne.ttf);}
+@font-face {font-family: 'firaGo';src: url(./assets/fonts/FiraGO.ttf) format('ttf');}
+/* define css variables */
+@theme {
+    --font-firaGO: 'firaGo', sans-serif;
+    --font-fredokaOne: 'fredokaOne', sans-serif;
+    --color-gray-dark: #121A22 !important;
+    --color-purple-light: #B588F4 !important;
+    --color-red: #FA4D4D !important;
+    --color-gray-light: #6C757D !important;
+    --color-ourBlack-gray: #0D0F10 !important;
+    --color-gray-idk: #474747 !important;
+    --color-ourBlack-light: #343A40 !important;
+    --color-gray: #CED4DA !important;
+    --color-green: #08A508 !important;
+    --color-purple: #8338EC !important;
+    --color-ourBlack: #212529 !important;
+}
